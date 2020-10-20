@@ -1,7 +1,7 @@
 .main-nav {
     float: right;
     list-style-type: none;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .main-nav li {
@@ -36,5 +36,20 @@
 }
 
 .fab{
-    margin-right: 20%;
+    margin-right: 30%;
 }
+
+.fa-twitter:hover,
+.fa-twitter:active {
+    color: #00acee;
+}
+
+.fa-facebook-square:hover,
+.fa-facebook-square:active {
+    color: #3b5998;
+}
+.fa-instagram:hover,
+.fa-instagram:active {
+    color: #E1306C;
+}
+
