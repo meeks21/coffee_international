@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    background-color:#fff;
+    /* font-family: 'Lato', 'Arial', 'sans-serif';
+    font-weight: 300; */
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.header_wrapper{
+    background-color: aquamarine;
+}
+
+header{
+    background-color: red;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header_wrapper{
+    
+}
+
+.aux{
+    background-color: aquamarine;
+}
+
+.logo {
+    height: 150px;
+    width: auto;
+    float: left
+}
+
+/* .blueberry{
+    height: 100vh;
+    background: cover;
+} */
