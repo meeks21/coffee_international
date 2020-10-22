@@ -1,0 +1,25 @@
+.btn:link,
+.btn:visited {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    color:#d9d9d9;
+}
+.btn:hover,
+.btn:active {
+    background-color: #D99B29;
+}
+
+.btn-full:link,
+.btn-full:visited {
+    background-color: #2f6732;
+    border: 1px solid #2f6732;
+
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #2f6732;
+}
