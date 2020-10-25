@@ -4,6 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* *,*:before, *:after{
+    box-sizing: inherit;
+} */
 
 html{
     
@@ -23,7 +26,16 @@ section{
 }
 
 .box {
-    padding: 1%;
+    /* padding: 1%; */
+}
+
+.clearfix {zoom: 1}
+.clearfix{
+    content:'.';
+    clear: both;
+    display block;
+    height: 0;
+    visibility: hidden;
 }
 /************************Header Styles******************************/
 .header_wrapper{
@@ -98,7 +110,7 @@ h3 {
     margin-bottom: 15px;
 }
 
-h2:after {
+h2::after {
     display: block;
     height: 2px;
     background-color: #D98E04;
@@ -111,8 +123,8 @@ h2:after {
 /**************************************paragraphs*****************************************/
 .long-copy {
     line-height: 125%;
-    width: 70%;
-    margin-left: 15%;
+    width: 80%;
+    margin-left: 10%;
 }
 
 .box p {
@@ -139,4 +151,47 @@ h2:after {
 }
 
 .hero-image{
-    opacity: 0.7;
+    opacity: 0.75;
+}
+
+/* *************************Rules*********************************** */
+
+/* .rules-box {
+    margin-top: 80px;
+} */
+
+.section-rules{
+
+}
+
+.rules-box:first-child{
+    text-align: center;
+    padding-right: 3%;
+    margin-top: 80px;
+}
+.rules-box:last-child{
+    padding-left: 3%;
+    margin-top: 160px;
+}
+
+.app-screen{
+    width: 70%;;
+}
+
+.rules-list{
+    margin-bottom: 50px;
+}
+
+.rules-list div {
+    color: #2f6732;
+    border: 2px solid #2f6732;
+    display: inline-block;
+    border-radius: 50%;
+    height: 65px;
+    width: 65px;
+    text-align: center;
+    padding: 5px;
+    float: left;
+    margin-right: 25px;
+   
+}
