@@ -197,3 +197,33 @@ h2::after {
 .section-form{
     background-color: #f1f9f1;
 }
+
+
+
+/* ******************************footer************************************************** */
+
+footer{
+
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.social-links-footer{
+    list-style: none;
+    float: right;
+}
+
+.footer-notes{
+    list-style: none;
+    float: left;
+}
+
+.footer-nav li,
+.social-links-footer li,
+.footer-notes li {
+    display: inline-block;
+    margin-right: 20px;
+}
