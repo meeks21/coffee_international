@@ -69,3 +69,10 @@ main-nav-row{
 .fa-bandcamp:active {
     color: #629aa9;
 }
+
+.fa-twitter,
+.fa-facebook-f,
+.fa-instagram,
+.fa-bandcamp {
+    transform: color 0.3s;
+}

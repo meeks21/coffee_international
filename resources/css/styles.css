@@ -203,12 +203,14 @@ h2::after {
 /* ******************************footer************************************************** */
 
 footer{
-
+    background-color: #040a05;
+    padding: 50px;
 }
 
 .footer-nav {
     list-style: none;
     float: left;
+    font-size: 80%;
 }
 
 .social-links-footer{
@@ -225,5 +227,43 @@ footer{
 .social-links-footer li,
 .footer-notes li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+}
+
+.footer-nav li:last-child,
+.social-links-footer li:last-child {
+    margin: 0;
+}
+
+.footer-notes li{
+    color: #d9d9d9 ;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links-footer li a:link,
+.social-links-footer li a:visited,
+.footer-notes li a:link,
+.footer-notes li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #d9d9d9 ;
+    transition: color 0.3s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active,
+.footer-notes li a:hover,
+.footer-notes li a:active{
+    color: #D98E04;
+}
+
+.footer-notes{
+  
+    
+}
+.foot-con{
+    width: 50%;
+    margin: 50px auto;
+    font-size: 70%;
 }
