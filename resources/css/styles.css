@@ -8,8 +8,9 @@
     box-sizing: inherit;
 } */
 
-html{
-    
+html,
+body{
+    font-family: 'Roboto', sans-serif;
     /* font-family: 'Lato', 'Arial', 'sans-serif'; */
     font-weight: 300;
     font-size: 20px;
@@ -168,8 +169,8 @@ h2::after {
     margin-top: 80px;
 }
 .rules-box:last-child{
-    padding-left: 3%;
-    margin-top: 160px;
+    padding-left: 1%;
+    margin-top: 80px;
 }
 
 .app-screen{
@@ -180,7 +181,7 @@ h2::after {
     margin-bottom: 50px;
 }
 
-.rules-list div {
+.rules {
     color: #2f6732;
     border: 2px solid #2f6732;
     display: inline-block;
@@ -188,10 +189,15 @@ h2::after {
     height: 65px;
     width: 65px;
     text-align: center;
-    padding: 5px;
+    padding: 10px;
     float: left;
     margin-right: 30px;
    
+}
+.rules-list p {
+    text-align: left; 
+    display: inline-block;
+    width: 75%;
 }
 
 .section-form{
