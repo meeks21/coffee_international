@@ -10,7 +10,7 @@
 
 html,
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Crimson Text', serif;
     /* font-family: 'Lato', 'Arial', 'sans-serif'; */
     font-weight: 300;
     font-size: 20px;
@@ -144,6 +144,11 @@ h2::after {
     margin-bottom: 20px;
 }
 
+.icon-big:hover,
+.icon-big:active {
+    color:  #b87803;
+}
+
 /****************************image slider*************************************** */
 .slides{
     background-color: black;
@@ -174,7 +179,7 @@ h2::after {
 }
 
 .app-screen{
-    width: 60%;;
+    width: 60%;
 }
 
 .rules-list{
@@ -191,9 +196,9 @@ h2::after {
     text-align: center;
     padding: 10px;
     float: left;
-    margin-right: 30px;
-   
+    margin-right: 30px;   
 }
+
 .rules-list p {
     text-align: left; 
     display: inline-block;
@@ -264,14 +269,8 @@ footer{
     color: #D98E04;
 }
 
-.footer-notes{
-  
-    
-}
-
 .foot-con{
     width: 50%;
     margin: 100px auto;
-
     font-size: 70%;
 }

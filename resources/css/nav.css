@@ -1,11 +1,16 @@
-main-nav-row{
-   
+.mobile-nav-icon{
+    float: right;
+    margin-top: 30px;
+    cursor: pointer;
+    display: none;
+}
+.mobile-nav-icon ion-icon{
+    font-size: 200%;
 }
 
 .main-nav {
     float: right;
     list-style-type: none;
-    /* background-color: floralwhite; */
      margin-top: 60px;
 }
 
@@ -76,3 +81,14 @@ main-nav-row{
 .fa-bandcamp {
     transform: color 0.3s;
 }
+
+
+
+/**************************************sticky nave********************* */
+/* .sticky{
+    position: fixed;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.98);
+} */

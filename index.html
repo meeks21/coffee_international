@@ -11,7 +11,7 @@
 <link href="resources/css/nav.css" type="text/css" rel="stylesheet">
 <link href="resources/css/form.css" type="text/css" rel="stylesheet">
 <link href="resources/css/queries.css" type="text/css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
 <script src="https://kit.fontawesome.com/a7b68da194.js" crossorigin="anonymous"></script>
 
@@ -40,15 +40,16 @@ $(window).load(function() {
                     </ul>    
                 </div>         
             </nav>
-            <nav>
+            <nav> 
                 <div class="row main-nav-row">
                     <a href="#"><img src="resources/images/image3resized.png" alt="logo" class="logo"></a>
-                    <ul class="main-nav">
+                    <ul class="main-nav js--main-nav">
                         <li><a href="#">about</a></li>
                         <li><a href="#">prizes</a></li>
                         <li><a href="#">rules</a></li>
                         <li><a href="#">contact</a></li>
                     </ul>
+                    <a class="mobile-nav-icon js--nav-icon"><ion-icon name="menu"></ion-icon></a>
                 </div>
             </nav> 
         </header>  
@@ -198,7 +199,6 @@ $(window).load(function() {
                 </div>
             </form>
         </div>
-
     </section>
     <footer>
         <div class="row">
@@ -208,7 +208,7 @@ $(window).load(function() {
                     <li><a href="#">Link #2</a></li>
                     <li><a href="#">Link #3</a></li>
                     <li><a href="#">Link #4</a></li>
-                    <li><a href="#">Link #5</a></li>
+                    
                 </ul>
             </div>
             <div class="col span-1-of-2">
@@ -231,6 +231,10 @@ $(window).load(function() {
         </div>
     </footer>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
+    <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+    <script type="text/javascript" src="selectivizr.js"></script>
+    <script src="resources/js/scripts.js"></script>
 </body>
 </html>
