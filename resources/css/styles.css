@@ -24,6 +24,7 @@ body{
 
 section{
     padding: 60px 0;
+  
 }
 
 .box {
@@ -130,12 +131,10 @@ h2::after {
     font-size: 90%;
     line-height: 140%;
 }
-.section-features .long-copy{
+.long-copy{
     margin-bottom: 60px;
 }
-.section-features .row {
-    margin-bottom: 60px;
-}
+
 /***************************icons************************************************************/
 .icon-big {
     font-size: 250%;
@@ -160,13 +159,6 @@ h2::after {
 
 /* *************************Rules*********************************** */
 
-/* .rules-box {
-    margin-top: 80px;
-} */
-
-.section-rules{
-    /* background-color: #f1f9f1; */
-}
 
 .rules-box:first-child{
     text-align: center;
