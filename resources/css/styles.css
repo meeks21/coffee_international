@@ -40,19 +40,7 @@ section{
     visibility: hidden;
 }
 /************************Header Styles******************************/
-.header_wrapper{
-    /* background-color: aquamarine; */
-}
 
-header{
-    /* background-color: darkgrey; */
-}
-
-
-
-.aux{
-    /* background-color: aquamarine; */
-}
 
 .logo {
     height: 120px;
